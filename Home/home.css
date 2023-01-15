@@ -192,6 +192,55 @@
     background-repeat: no-repeat;
 }
 
+
+/* About us part  */
+
+#about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#about .about-content .left img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    /* background-color: rgba(35, 85, 124, 0.2); */
+    position: relative;
+    z-index: -1;
+    
+}
+
+#about .about-content .left {
+    width: 40%;
+    /* height: 400px; */
+    margin: 0 0 0 30px;
+    background: linear-gradient(0deg, rgba(35, 85, 124, 0.23), rgba(35, 85, 124, 0.3));
+}
+
+#about .about-content .right {
+    width: 50%;
+    padding: 0px 40px;
+}
+
+.right h2{
+    font-size: 36px;
+}
+
+#about .about-content .right p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 27px;
+    /* text-align: justify; */
+    color:#30373E
+}
+
+
+
+
+
 /* Kitchen part  */
 #kitchen{
     background: linear-gradient(0deg, rgba(49, 55, 63, 0.2), rgba(49, 55, 63, 0.2)), url("../data/home_Data/h1-bg02.jpg");      
@@ -304,7 +353,7 @@
     font-size: 44px;
     line-height: 50px;   
     letter-spacing: 0.05em;
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
     width: 10%;
     padding: 40px 20px;
     background-color: white;
