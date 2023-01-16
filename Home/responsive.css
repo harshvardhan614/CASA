@@ -1,4 +1,9 @@
 @media (max-width:1150px) {
+    /* navigation bar  */
+    #header {
+        padding: 10px 30px;
+    }
+
     #hero .text {
         width: 50%;
     }
@@ -20,35 +25,7 @@
          */
     }
 
-    /* about page  */
-    #about .about-content .right {
-        padding: 0px 0 0 40px;
-    }
-
-    #about .about-content .right .head {
-        font-size: 28px;
-    }
-
-    #about .about-content .right p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    #about .about-content .right .points li {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    /* vision part  */
-    #vision .left-vision {
-        /* width: 60%; */
-        padding: 30px;
-    }
-
-    /* #vision .right-vision {
-         width: 40%; 
-    } */
-}
+}    
 
 
 @media (max-width:1024px) {
@@ -60,129 +37,14 @@
 
     }
 
-    /* about section  */
-    #vision .left-vision .head {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
-    #vision .left-vision p {
-        font-size: 16px;
-        line-height: 22px;
-        margin: 5px 0;
-
-    }
-
-    #vision .right-vision img {
-        height: auto;
-        max-width: 400px;
-        padding: 0;
-    }
-
-    /* services part  */
-    #services .service-content .provide .box .data {
-        margin-left: 5px;
-    }
-
-    #services .service-content .phone {
-        max-width: 240px;
-    }
-
-    #services .service-content .phone img {
-        max-width: 230px;
-        height: auto;
-    }
-
-    #services .service-content .phone .setimg {
-        position: absolute;
-        top: 52px;
-        right: 11px;        
-        height: 360px;
-        width: 206px;             
-    }
-
-    #services .service-content .provide .box .data h2 {
-        font-size: 20px;
-
-    }
-
-    #services .service-content .provide .box .data p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    #services .service-content .provide .box i {
-        font-size: 30px;
-        width: 35px;
-    }
-
-    /* project content  */
-    #project .project-content .pr-detail h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    #project .project-content .pr-detail p {
-        font-size: 16px;
-        line-height: 24px;
-        padding-right: .7em;
-    }
-
-    /* TEstimonials part  */
-    .testimonial img {
-        max-width: 100px;
-    }
-
-    #customers-testimonial {
-        padding: 20px 0;
-    }
-
-    #customers-testimonial .star {
-        font-size: 10px;
-        padding: 10px 0;
-    }
-
-    .testimonial blockquote {
-        padding: 5px 20px;
-    }
-
-    .testimonial blockquote p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .testimonial blockquote::before,
-    .testimonial blockquote::after {
-        font-size: 60px;
-        width: 25px;
-        height: 25px;
-    }
-
-    .testimonial-author p strong {
-        font-size: 20px;
-    }
-
-    /* footer part  */
-    .footer-content .details {
-        max-width: 100%;
-    }
-
-}
-
-@media (max-width:820px) {
-
-
-
     /* navigation bar  */
-    #header {
-        padding: 10px 30px;
-    }
-
+    
     .navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+        flex-wrap: nowrap;
         position: fixed;
         top: 0;
         right: -270px;
@@ -190,13 +52,17 @@
         width: 270px;
         background-color: #fff;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.3s ease;
+        padding: 80px 0 0 20px;
+        transition: 0.3s ease;        
     }
 
     .navbar li {
         margin-bottom: 25px;
         font-size: 20px;
+    }
+
+    .navbar li a{
+        padding-left: 0px ;
     }
 
     #navbar.active {
@@ -227,6 +93,20 @@
         color: #23557C;
         font-size: 24px;
     }
+  
+    /* footer part  */
+    .footer-content .details {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:820px) {
+
+
+
+    
+
 
     /* Hero Part  */
     #hero .text {
@@ -246,71 +126,15 @@
 
     }
 
-    #vision .right-vision {
+   /* New REsponsiveness  */
+   #upper-nav{
+    justify-content: center;
+   }
+
+    #upper-nav .left{
         display: none;
-    }
-
-    #vision .left-vision {
-        width: 100%;
-    }
-
-
-    /* Footer part  */
-    .common h2 {
-        font-size: 26px;
-    }
-
-    .footer-content .details {
-        padding-right: 1rem;
-
-    }
-
-    .footer-content .follow {
-        padding: 0 1rem;
-    }
-
-    /* about page content  */
-
-    #about .about-content .left {
-        width: 95%;
-        margin: 12px auto;
-    }
-
-    #about .about-content .right {
-        width: 100%;
-        padding: 0px 40px;
-    }
-
-    /* Services section  */
-    #services .service-content .provide {
-        width: 100%;
-    }
-
-    #services .service-content .provide .box {
-        margin: 10px auto;
-    }
-
-
-    #services .service-content .phone {
-        display: none;
-    }
-
-    #services .service-content .provide .box .data p {
-        text-align: justify;
-    }
-
-    /* project content  */
-    #project .project-content .pr-detail,
-    #project .project-content .pro-img {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    #project .project-content .pro-img img {
-        width: 100%;        
-        -webkit-box-reflect: below 0px linear-gradient(transparent, #0000);
-    }
-
+    }    
+    
 }
 
 
@@ -363,108 +187,18 @@
 
     #hero .text h2 {
         font-size: 32px;
-    }
+    }  
 
-    /* about page  */
-    #about.section-mp{
-        padding-top: 0;
+    /* new responsiveness  */
+    #header {
+        padding: 12px 20px;
     }
-    #about .about-content .right p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    #about .about-content .right .head {
-        font-size: 22px;
-    }
-
-    #about .about-content .right .points li {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    #about .about-content .points li i {
-        height: 24px;
-        width: 24px;
-        line-height: 24px;
-        margin-right: 10px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-
-    #about .about-content .right {
-        padding: 0px 10px;
-    }
-
-    /* vision section  */
-    #vision .right-vision {
-        display: flex;
-        width: 100%;
-        margin: 20px auto;
-    }
-
-    #vision .right-vision img {
-        max-width: 300px;
-    }
-    .marquee-content li i {        
-        font-size: 64px;
-    }
-
-    /* testimonial part  */
-
-    /* .testimonial blockquote p{
-        max-width: 350px;
-    } */
-
-    .testimonial img {
-        margin-bottom: 5px;
-    }
-
-    .testimonial blockquote {
-        padding: 5px 5px;
-    }
-
-    .testimonial-author p {
-        font-size: 14px;
-    }
-
-    #client {
-        display: initial;
-    }
-
-    h3.text-center {        
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .testimonial blockquote::before,
-    .testimonial blockquote::after {
-        font-size: 0px;
-        width: 0px;
-        height: 0px;
-    }
-
-    #customers-testimonial .star {
-        font-size: 5px;
-        padding: 8px 0;
-    }
-
-    .testimonial blockquote p {
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    /* project part  */
-    #project .project-content .pr-detail a{           
-        padding: 10px 14px;       
-        margin: 10px auto;               
-    }
-
-    #project .project-content .pr-detail a span{         
-        font-size: 14px;
-        line-height: 16px;       
-    }
-
+    #header .logo-box img {
+        height: 30px;
+    }    
+    #upper-nav .right{
+        justify-content: center;
+       }
 
     /* Footer part  */
 
