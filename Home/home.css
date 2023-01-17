@@ -196,7 +196,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 #hero .text {
@@ -298,13 +298,15 @@
 
 
 /* About us part  */
+#about{
+    margin: 40px auto;
+}
 
 #about .about-content {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 40px auto;
 }
 
 #about .about-content-2{

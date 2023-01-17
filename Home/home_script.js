@@ -29,8 +29,8 @@ faqs.forEach((faq) =>{
     })
 });
 
-// kitchen image owl-carousel 
-$('.owl-carousel').owlCarousel({
+  // kitchen image owl-carousel 
+  $('.owl-carousel').owlCarousel({
     loop:true,
     margin:30,
     nav:true,
@@ -100,4 +100,5 @@ const swiper = new Swiper('.swiper-1', {
             el: ".swiper-scrollbar",
           },
         });
+   
 
