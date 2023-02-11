@@ -21,7 +21,7 @@
 
 .max-width {
     width: 100%;
-    max-width: 1366px;
+    max-width: 1766px;
     margin: 0 auto;
 }
 
@@ -430,7 +430,7 @@ i {
     max-height:1000px; 
     background-size: cover;
     background-repeat: no-repeat;     
-    margin: 80px 0;
+    margin: 80px auto;
     padding: 20px 0;
     color: white;
 }
@@ -570,14 +570,15 @@ i {
 /* text data part with promo section  */
 
 /* promo video css  */
+
 #promo-part{
     background: linear-gradient(0deg, rgba(49, 55, 63, 0.2), rgba(49, 55, 63, 0.2)), url("../data/home_Data/promo-bg.jpg");      
     height: 100%;
     max-height:750px; 
     background-size: cover;
-    background-repeat: no-repeat;  
-    margin: 40px 0px;
-    padding: 40px;
+    background-repeat: no-repeat; 
+    margin: 40px 15px;     
+    padding: 40px 0;
 }
 
 #promo{
@@ -592,7 +593,7 @@ i {
     flex-direction: column;
     align-items: flex-start;
     justify-content:space-between;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     
 }
 
@@ -611,9 +612,9 @@ i {
     padding-left: 5px;
 }
 
-#promo .video{
+/* #promo .video{
     padding-left: 20px;
-}
+} */
 
 #promo .video video{
     height: 370px;

@@ -93,6 +93,7 @@
 
 }
 
+
 @media (max-width:820px) {  
 
 
@@ -101,8 +102,7 @@
         background: none;
         height: 80vh;
         margin-bottom: 40px;        
-    }
-    
+    }    
 
     #hero .text {
         width: 100%;
