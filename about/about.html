@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Setup Webfont with CDN in FontAwesome  -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="../common/common.css">    
+    <link rel="stylesheet" href="about.css">
+
+    <title>About | Casa Lifetyles</title>
+</head>
+<body>
+    
+    <!-- upper nav  -->
+<section id="upper-nav" class="max-width">        
+        <div class="left text">
+            MON-SAT 10.00 AM To 8.30 PM - <span>SUNDAY CLOSED</span>
+        </div>
+        <div class="right text">
+            <div><i class="fa-solid fa-phone"></i> +91 45678 23456</div>
+            <div><i class="fa-solid fa-envelope"></i> enquiry@regalokitchens.com</div>
+        </div>       
+</section>
+
+<!-- navigation bar  -->
+<section id="header" class="max-width">
+    <div class="logo-box">
+      <a href="../index.html">
+        <img src="../common/main-logo.png" alt="no img" />
+      </a>
+    </div>
+
+    <div>
+      <ul id="navbar" class="navbar">
+        <li><a class="menu-bar " href="../index.html">Home</a></li>
+        <li><a class="menu-bar active" href="#">About Us</a></li>       
+        <li><a class="menu-bar" href="#">Products</a></li>
+        <li><a class="menu-bar" href="#">Articles</a></li>
+        <li><a class="menu-bar " href="../contact/contact.html">Contact Us</a></li>
+
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+
+    <div id="mobile">
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+
+<!-- main head section  -->
+<section id="main-head" class="max-width">
+    <h2>About Us</h2>
+</section>
+
+
+<footer id="footer" class="max-width section-mp"> 
+    <div class="heading">
+        <h2>Contact Us</h2>
+    </div>      
+    <div class="footer-content">
+      <div class="details">
+        <img src="../common/logo-white.png" alt="no img" />
+        <p>
+          CASA Kitchens specialises in planning, design, supply and installation of modern modular kitchens, with a curation of top international brands within your reach, in the city of Surat.
+        </p>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <ul class="pagelink">
+        <li><a class="link"  href="#">Home</a></li>
+        <li><a class="link" href="#">About Us</a></li>
+        <li><a class="link" href="#">Modular Kitchens </a></li>
+        <li><a class="link" href="#">Modular Wardrobes</a></li>
+        <li><a class="link" href="#">Vanity Units</a></li>
+        <li><a class="link" href="#">Kitchen Appliances</a></li>
+        <li><a class="link" href="#">Contact Us</a></li>
+      </ul>
+      <div class="touch">                     
+        <div class="boxes">
+          <!-- <i class="fa-solid fa-phone"></i> -->
+          <p>
+            +91 9374502056 , <br>
+            +91 6396361577
+          </p>
+        </div>
+        <div class="boxes">
+            <!-- <i class="fa-solid fa-envelope"></i> -->
+            <p>
+              info@casakitchens.com
+            </p>
+          </div>
+        <div class="boxes">
+          <!-- <i class="fa-sharp fa-solid fa-location-dot"></i> -->
+          <p>Maz Floor, 49-51,
+            Navmangalam complex, near Agra sweets Citylight main road, Surat.</p>
+        </div>
+      </div>
+       
+    
+  </footer>
+  <div class="copyright max-width">
+    <p>Copyrights © 2023 All rights reserved.</p>
+  <p>Developerd by <a href="https://rectangletechnologies.com/" target="blank">Rectangle Technologies</a></p>
+</div>
+
+<script>
+    // Navigation Bar 
+const bar = document.getElementById('bar');
+const navbar = document.getElementById('navbar');
+const close = document.getElementById('close');
+
+if(bar){
+    bar.addEventListener('click', ()=> {
+        navbar.classList.add('active');        
+    })
+}
+
+if(close){
+    close.addEventListener('click', ()=> {
+        navbar.classList.remove('active');        
+    })
+}
+
+$(".menu-bar").click(function () {
+  navbar.classList.remove('active');      
+});
+</script>
+
+</body>
+</html>

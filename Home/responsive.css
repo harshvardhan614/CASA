@@ -1,70 +1,4 @@
-@media (max-width:1150px) {
-    /* navigation bar  */
-    #header {
-        padding: 10px 30px;
-    }     
-
-}    
-
-
 @media (max-width:1024px) {
-
-        /* navigation bar  */
-    
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-        position: fixed;
-        top: 0;
-        right: -270px;
-        height: 100vh;
-        width: 270px;
-        background-color: #fff;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 20px;
-        transition: 0.3s ease;        
-    }
-
-    .navbar li {
-        margin-bottom: 25px;
-        font-size: 20px;
-    }
-
-    .navbar li a{
-        padding-left: 0px ;
-    }
-
-    #navbar.active {
-        right: 0px;
-    }
-
-
-    #mobile {
-        display: block;
-        cursor: pointer;
-    }
-
-    #mobile i {
-        color: #23557C;
-        font-size: 30px;
-        padding-left: 25px;
-        transition: 0.3s ease;
-    }
-
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        right: 30px;
-    }
-
-    #close i {
-        color: #23557C;
-        font-size: 24px;
-    }
 
     /* about part  */
     #about .about-content .right{
@@ -85,11 +19,7 @@
     #about .about-content .about2-right {
         width: 50%;
     }
-   
-    /* footer part  */
-    .footer-content .details {
-        max-width: 100%;
-    }
+    
 
 }
 
@@ -135,16 +65,7 @@
     #hero .text .prev,
 #hero .main-img .next{
     display: none;
-}   
-
-   /* New REsponsiveness  */
-   #upper-nav{
-    justify-content: center;
-   }
-
-    #upper-nav .left{
-        display: none;
-    }  
+}      
     
     /* about section  */
     #about .about-content .left img {
@@ -200,13 +121,7 @@
 
 @media (max-width:588px) {
 
-    /* New REsponsieness  */   
-    
-    .section-mp {
-        margin: 40px auto;
-        padding: 40px 1.5rem;
-    }
-    
+    /* New REsponsieness  */      
     #hero .text{
         padding: 0 2em;
     }
@@ -221,14 +136,7 @@
         line-height: 16px;    
         
     }    
-
-    /* new responsiveness  */
-    #header {
-        padding: 12px 20px;
-    }
-    #header .logo-box img {
-        height: 30px;
-    }    
+   
     #about .about-content .left img {
         height: 350px;
     }
@@ -265,24 +173,7 @@
         font-size: 14px;
         margin-right: 0;        
     }
-
-    /* Footer part  */
-    #footer .footer-content {       
-        padding:40px 10px;
-    }
-    .footer-content .details {
-        padding-right: 0rem;
-    }
-
-    .footer-content .touch {
-        padding: 0rem;
-    }
-
-    .copyright p{
-        font-size: 12px;
-        text-align: center;
-        padding-top: 5px;
-    }
+   
     
 }
 
